@@ -1,6 +1,6 @@
 Name:           perl-IO-CaptureOutput
 Version:        1.1102
-Release:        9%{?dist}
+Release:        8%{?dist}
 Summary:        Capture STDOUT/STDERR from sub-processes and XS/C modules
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -53,9 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.1102-9
-- Mass rebuild 2013-12-27
-
 * Tue Oct 16 2012 Petr Pisar <ppisar@redhat.com> - 1.1102-8
 - Specify all dependencies
 
